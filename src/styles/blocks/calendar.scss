@@ -1,9 +1,9 @@
 .calendar {
   display: flex;
   flex-wrap: wrap;
-  gap: $gap;
+  gap: $calendar-gap;
   width: $width;
-  padding: $paddind;
+  padding: $calendar-paddind;
   box-sizing: border-box;
 
   &__day {
@@ -29,7 +29,7 @@
 
   @each $day, $numb in $days {
     &--start-day-#{$day} :first-child {
-      margin-left: $numb * ($cell-size + $gap);
+      margin-left: $numb * ($cell-size + $calendar-gap);
     }
   }
 

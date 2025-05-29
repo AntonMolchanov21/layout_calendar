@@ -1,9 +1,9 @@
 $calendar-column: 7;
 $calendar-gap: 1px;
 $cell-size: 100px;
-$calendar-paddind: 10px;
+$calendar-padding: 10px;
 $width: calc(
-  $calendar-column * $cell-size + ($calendar-gap * 6) + ($calendar-paddind * 2)
+  $calendar-column * $cell-size + ($calendar-gap * 6) + ($calendar-padding * 2)
 );
 $days: (
   'mon': 0,
